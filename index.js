@@ -25,7 +25,7 @@ app.use(basicAuth({
   users:{
     'admin': 'scarySecretPasswordChanged',
     'adam':'revealedPassword1',
-    'eve':'dangerouslyEasyPassword1'
+    'eve':'dangerouslyEasyPassword13333'
   },
   challenge: true,
   realm:'Imb4T3st4pp'
