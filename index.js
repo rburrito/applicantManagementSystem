@@ -23,7 +23,7 @@ app.use(session({
 
 app.use(basicAuth({
   users:{
-    'admin': 'scarySecretPasswordChanged',
+    'admin': 'scarySecretPasswordChanged133333',
     'adam':'revealedPassword1333333',
     'eve':'dangerouslyEasyPassword13333'
   },
