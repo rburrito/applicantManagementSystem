@@ -23,9 +23,9 @@ app.use(session({
 
 app.use(basicAuth({
   users:{
-    'admin': 'scarySecretPasswordChanged123456789',
-    'adam':'revealedPassword123456789',
-    'eve':'dangerouslyDifficultPassword123456789'
+    'admin': 'scarySecretPasswordChanged01234',
+    'adam':'revealedPassword01234',
+    'eve':'dangerouslyDifficultPassword01234'
   },
   challenge: true,
   realm:'Imb4T3st4pp'
