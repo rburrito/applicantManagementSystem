@@ -23,8 +23,8 @@ app.use(session({
 
 app.use(basicAuth({
   users:{
-    'admin': 'sampleSecret123',
-    'adam':'1234567123',
+    'admin': 'sampleSecret123456',
+    'adam':'1234567123456',
     'eve':'3456789123'
   },
   challenge: true,
