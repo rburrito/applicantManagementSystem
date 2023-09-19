@@ -16,7 +16,7 @@ let port=process.env.PORT || 3000;
 
 app.use(session({
   // remove session secret to environment variable
-  secret:'39cg-3d91-wlr96q38s',
+  secret:'30cg-5d91-wlr96q28s',
   resave:true,
   saveUninitialized:true
 }));
